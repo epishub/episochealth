@@ -12,6 +12,9 @@
     "background": {
         "service_worker": "background.js"
     },
+    "content": {
+        "service_worker": "content.js"
+    },
     "permissions": ["contextMenus", "clipboardWrite", "clipboardRead"],
     "action": {
         "default_popup": "index.html",
